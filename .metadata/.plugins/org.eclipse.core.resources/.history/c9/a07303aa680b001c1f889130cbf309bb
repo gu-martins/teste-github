@@ -1,0 +1,22 @@
+package teste;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String product1="Computer";
+		String product2="Office desk";
+		
+		int age=30;
+		int conde=5290;
+		char gender='F';
+		
+		double price1=2100.0;
+		double proce2=650.50;
+		double measure=53.234567;
+		
+		System.out.printf("Product is:%n %s which price is $ %f %n %s, wich price is $ %f %n %n ",product1,price1);
+
+	}
+
+}

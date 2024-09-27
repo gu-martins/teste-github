@@ -1,0 +1,30 @@
+package dolar;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import dolar.CurrencyConverter;
+
+public class ProgramDolar {
+
+	
+
+	public static void main(String[] args) {
+
+		
+		CurrencyConverter convert=new CurrencyConverter();
+		Locale.setDefault(Locale.US);
+		Scanner sc=new Scanner (System.in);
+		
+		System.out.println("what is the dollar price? ");
+			convert.price = sc.nextDouble();			
+		
+		System.out.println("how many dollars will be bought? ");
+			convert.dolar=sc.nextDouble();
+			
+		System.out.printf("Amount to be paid in reais= %.2f"+convert.result());	
+			
+		sc.close();
+	}
+
+}

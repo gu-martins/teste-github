@@ -1,0 +1,16 @@
+package dolar;
+
+public class CurrencyConverter {
+
+	public double dolar;
+	
+	public double price;
+		
+	public double result() {
+		return price*dolar;
+		
+	}
+		 
+	
+}
+
